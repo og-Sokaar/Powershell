@@ -3,7 +3,7 @@
 | USER CLEAN UP SCRIPT                                                                        | 
 +---------------------------------------------------------------------------------------------+ 
 |   DATE        : 27/06/2019                                                                  |
-|   AUTHOR      : Scott Denton                                                                |
+|   AUTHOR      : og-sokaar                                                               |
 |   DESCRIPTION : Script to check if a user has logged on in the last 60 days. If not         |
 |                 move user to correct OU, delete H: drive and profile and email HR           |
 +---------------------------------------------------------------------------------------------+ 
