@@ -111,6 +111,9 @@ $deleteduserscsv = "C:\temp\DeletedADUsers$((Get-Date).ToString('ddMMyy')).csv"
 $deletedusers = @()
 $date = Get-Date -f d
 
+# Import Active Directory Module
+Import-Module ActiveDirectory
+
 # Get Active Directory users and properties - filter out anything not relevant
 
 $users = Get-ADUser -Filter {mail -like "*"} -Properties title,department,enabled,mail,manager,lastlogontimestamp,pwdLastSet | ?{
