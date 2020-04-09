@@ -3,7 +3,7 @@
 | SERVER INVENTORY SCRIPT                                                                     | 
 +---------------------------------------------------------------------------------------------+ 
 |   DATE        : 02/07/2019                                                                  |
-|   AUTHOR      : Scott Denton - Foxtec IT Consultancy                                        |
+|   AUTHOR      : og-sokaar                                                                   |
 |   DESCRIPTION : Script to inventory servers gather information on server resources - CPUs   |
 |                 Memory, HDD, Domain, roles and features                                     |
 +---------------------------------------------------------------------------------------------+ 
