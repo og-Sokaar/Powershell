@@ -103,7 +103,7 @@ $css = 'h1 {
 '
 
 $params = @{
-    Server = "LVP-DC02"
+    Server = "<insert DC name>"
 }
 
 $deleteduserserrorlog = "C:\temp\DeletedADUsersErrors$((Get-Date).ToString('ddMMyy')).log"
